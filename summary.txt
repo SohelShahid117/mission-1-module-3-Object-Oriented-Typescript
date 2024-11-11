@@ -1,0 +1,11 @@
+paradigm-দৃষ্টান্ত
+
+
+//3-1: Class and object
+1.go to-->ts node dev
+2.https://www.npmjs.com/package/ts-node-dev
+3.run the file----->ts-node-dev --respawn --transpile-only ./src/classObject_3.1.ts
+4.vvi---->()=>{} function e this kaj korena so ai khetre amader 
+normal function f(){} use korte hobe.
+5.constructor e public keyword add kore dile property name upore dite hobena 
+6.constructor( public name:string,public projati:string,public age:number,public sound:string){}
