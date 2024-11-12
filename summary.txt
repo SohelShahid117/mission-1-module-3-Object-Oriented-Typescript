@@ -2,6 +2,7 @@ paradigm-দৃষ্টান্ত
 
 
 //3-1: Class and object
+//3-2: Inheritance in OOP
 1.go to-->ts node dev
 2.https://www.npmjs.com/package/ts-node-dev
 3.run the file----->ts-node-dev --respawn --transpile-only ./src/classObject_3.1.ts
