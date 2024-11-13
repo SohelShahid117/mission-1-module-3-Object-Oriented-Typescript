@@ -8,7 +8,6 @@
       }
     }
   class Student extends Parent{
-
     constructor(public name:string,public age:number, public address:string){
       super(name,age,address);
     }
@@ -42,5 +41,3 @@
   const tchr1 = new Teacher("Shahid",34,"ctg","professor");
   tchr1.takeClass(3);
 }
-
-//4 min done
