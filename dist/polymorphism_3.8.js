@@ -23,4 +23,35 @@
         param.getSleep();
     };
     getSleepingHour(person1);
+    getSleepingHour(person2);
+    getSleepingHour(person3);
+    class Area {
+        getArea() {
+            return 0;
+        }
+    }
+    class CircleArea extends Area {
+        constructor(r) {
+            super();
+            this.r = r;
+        }
+        getArea() {
+            // return 0;
+            return (Math.PI * this.r * this.r);
+        }
+    }
+    const circle = new CircleArea(5);
+    console.log("circle area is : " + circle.getArea());
+    class RectangleArea extends Area {
+        constructor(width, length) {
+            super();
+            this.length = length;
+            this.width = width;
+        }
+        getArea() {
+            return (this.length * this.width);
+        }
+    }
+    const rectangle = new RectangleArea(15, 10);
+    console.log("rectangle area is : " + rectangle.getArea());
 }
