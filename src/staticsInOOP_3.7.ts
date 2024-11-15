@@ -49,9 +49,35 @@
    const instanceee4= new Counter2();
    console.log("now decrement "+instanceee4.decrement())
 
-   //4min done
-
-
+//    static class Counter3{
+    class Counter3{
+    static count:number=0;
+    // constructor(count:number){
+    //     this.count=count;
+    // }
+    // increment(){
+   static increment(){
+        // return (this.count=this.count+1);
+        return (Counter3.count=Counter3.count+1);
+    }
+    // decrement(){
+    static decrement(){
+        // return (this.count=this.count-1);
+        return (Counter3.count=Counter3.count-1);
+    }
+   }
+//    const result1 = new Counter3();
+//    console.log(result1.increment())
+//    console.log(result1.increment())
+//    const result2 = new Counter3();
+//    console.log(result2.increment())
+console.log(Counter3.increment());
+console.log(Counter3.increment());
+console.log(Counter3.increment());
+console.log(Counter3.decrement());
+console.log(Counter3.decrement());
+console.log(Counter3.decrement());
+console.log(Counter3.decrement());
 
 
 
