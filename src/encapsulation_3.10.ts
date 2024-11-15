@@ -37,7 +37,8 @@
     }
 
     const sohelerAccount = new BankAccount(117,"sohel",200);
-    const sohelerBalance =  sohelerAccount.getBalance();
+    // const sohelerBalance =  sohelerAccount.getBalance();
+    const sohelerBalance =  sohelerAccount.getHiddenBalance();
     console.log("soheler balance is : "+sohelerBalance + "/-")
 
 
