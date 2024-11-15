@@ -71,6 +71,8 @@
 //    console.log(result1.increment())
 //    const result2 = new Counter3();
 //    console.log(result2.increment())
+
+//here use directly Class property & method without creating object by using static property & static method.
 console.log(Counter3.increment());
 console.log(Counter3.increment());
 console.log(Counter3.increment());
